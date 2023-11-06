@@ -11,16 +11,16 @@ To get started with this application, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/bulletinboard.git
+   git clone https://github.com/TrinityJayd/Bulletin-Board.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd bulletinboard
+   cd Bulletin-Board
    ```
 
-3. Install the project dependencies:
+3. Install the project dependencies for both the frontend and backend:
 
    ```bash
    npm install
