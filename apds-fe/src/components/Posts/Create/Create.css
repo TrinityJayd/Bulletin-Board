@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+#create-form {
+  width: 35%;
+  margin: 0 auto;
+}
+
+#create-form h1 {
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.form-labels {
+  text-align: left;
+}

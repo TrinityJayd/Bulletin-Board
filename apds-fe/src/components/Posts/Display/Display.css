@@ -1,0 +1,11 @@
+.card{
+    margin: 2rem auto;
+    text-align: left;
+    width: 40%;
+}
+
+.card-title {
+    background: dodgerblue;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+#login-form {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#login-form h1 {
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+    
+.form-labels{
+  text-align: left;
+}

@@ -1,0 +1,51 @@
+### SIGN UP
+POST https://localhost:3000/api/users/signup HTTP/1.1
+content-Type: application/json
+
+{
+    "username" : "NewUser",
+    "password" : "Password1",
+    "department" : "Finance"
+}
+
+### LOGIN
+POST https://localhost:3000/api/users/login HTTP/1.1
+content-Type: application/json
+
+{
+    "username" : "TestUser",
+    "password" : "Password1"
+}
+
+### CREATE POST
+POST https://localhost:3000/api/posts/ HTTP/1.1
+content-Type: application/json
+Authorization: Bearer {token}
+
+{
+    "username" : "TestUser",
+    "title" : "Test Post 1",
+    "content" : "This is the first test post.",
+    "date" : "02/02/2023",
+    "department" : "Finance"
+}
+
+### CREATE POST 2
+POST https://localhost:3000/api/posts/ HTTP/1.1
+content-Type: application/json
+Authorization: Bearer {token}
+
+{
+    "username" : "TestUser",
+    "title" : "Test Post 2",
+    "content" : "This is the second test post.",
+    "date" : "02/07/2023",
+    "department" : "Finance"
+}
+
+### GET ALL POSTS
+GET https://localhost:3000/api/posts/ HTTP/1.1
+
+### DELETE A POST USING ID
+DELETE https://localhost:3000/api/posts/6512b61590fb65101d5bb308 HTTP/1.1
+Authorization: Bearer {token}
