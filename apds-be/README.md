@@ -27,7 +27,7 @@ To get started with this application, follow these steps:
 4. Start the server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## API Endpoints
