@@ -77,7 +77,7 @@ function Create() {
           onChange={(e) => setContent(e.target.value)}
         />
         <Form.Control.Feedback type="invalid">
-          Please enter a title.
+          Please enter content fot the message.
         </Form.Control.Feedback>
       </Form.Group>
       {errorMessage && (
