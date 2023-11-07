@@ -26,7 +26,13 @@ To get started with this application, follow these steps:
    npm install
    ```
 
-4. Start the server:
+4. Fore the backend you can add your own .env file with the mongodb database url.
+   
+   ```bash
+   DATABASE_URL = {URL}
+   ```
+
+5. Start the server:
 
    ```bash
    npm start
